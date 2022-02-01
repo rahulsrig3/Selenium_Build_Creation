@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SuiteRegression">
+
+<groups>
+	<run>
+		<include name = "regressionTesting"/>
+	</run>
+</groups>
+  <test thread-count="5" name="TestRunnerRegression">
+    <classes>
+      <class name="selenium_Practice_SmokeAndReg.SmokeAndRegressionTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
