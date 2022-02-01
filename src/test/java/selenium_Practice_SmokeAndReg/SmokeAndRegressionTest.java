@@ -10,7 +10,7 @@ public class SmokeAndRegressionTest {
 		System.out.println("Run the smoke testing in jenkings after build");
 	}
 	
-	@Test(groups = "regressionTesting")
+	@Test(priority = 1)
 	public void regressionTestingTest() {
 		
 		System.out.println("Run the regression testing in jenkins after smoke testing");
